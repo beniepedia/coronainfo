@@ -1,0 +1,95 @@
+CRITICAL - 2020-04-30 00:10:09 --> Undefined index: Long
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-30 01:22:15 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1210455223&amp;text=TEssss+doloo): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(12): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(8): kirimpesan('TEssss doloo')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 01:26:54 --> syntax error, unexpected 'ah' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\infocorona.site\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\infocorona.site\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-30 01:33:13 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;parse_mode=%3Cb%3Ebold%3C%2Fb%3E%2C+%3Cstrong%3Ebold%3C%2Fstrong%3E%0D%0A%3Ci%3Eitalic%3C%2Fi%3E%2C+%3Cem%3Eitalic%3C%2Fem%3E%0D%0A%3Cu%3Eunderline%3C%2Fu%3E%2C+%3Cins%3Eunderline%3C%2Fins%3E%0D%0A%3Cs%3Estrikethrough%3C%2Fs%3E%2C+%3Cstrike%3Estrikethrough%3C%2Fstrike%3E%2C+%3Cdel%3Estrikethrough%3C%2Fdel%3E%0D%0A%3Cb%3Ebold+%3Ci%3Eitalic+bold+%3Cs%3Eitalic+bold+strikethrough%3C%2Fs%3E+%3Cu%3Eunderline+italic+bold%3C%2Fu%3E%3C%2Fi%3E+bold%3C%2Fb%3E%0D%0A%3Ca+href%3D%22http%3A%2F%2Fwww.example.com%2F%22%3Einline+URL%3C%2Fa%3E%0D%0A%3Ca+href%3D%22tg%3A%2F%2Fuser%3Fid%3D123456789%22%3Einline+mention+of+a+user%3C%2Fa%3E%0D%0A%3Ccode%3Einline+fixed-width+code%3C%2Fcode%3E%0D%0A%3Cpre%3Epre-formatted+fixed-width+code+block%3C%2Fpre%3E%0D%0A%3Cpre%3E%3Ccode+class%3D%22language-python%22%3Epre-formatted+fixed-width+code+block+written+in+the+Python+programming+language%3C%2Fcode%3E%3C%2Fpre%3E%0D%0A%09%09%09%09%09): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(12): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(21): kirimpesan('<b>bold</b>, <s...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 01:38:43 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E%3Cu%3EUPDATE+DATA+FROM+SERVER%3C%2Fu%3E%3C%2Fstrong%3E%3Cbr%3E%0D%0A%3Ci%3Eitalic%3C%2Fi%3E%2C+%3Cem%3Eitalic%3C%2Fem%3E%0D%0A%3Cu%3Eunderline%3C%2Fu%3E%2C+%3Cins%3Eunderline%3C%2Fins%3E%0D%0A%3Cs%3Estrikethrough%3C%2Fs%3E%2C+%3Cstrike%3Estrikethrough%3C%2Fstrike%3E%2C+%3Cdel%3Estrikethrough%3C%2Fdel%3E%0D%0A%3Cb%3Ebold+%3Ci%3Eitalic+bold+%3Cs%3Eitalic+bold+strikethrough%3C%2Fs%3E+%3Cu%3Eunderline+italic+bold%3C%2Fu%3E%3C%2Fi%3E+bold%3C%2Fb%3E%0D%0A%3Ca+href%3D%22http%3A%2F%2Fwww.example.com%2F%22%3Einline+URL%3C%2Fa%3E%0D%0A%3Ca+href%3D%22tg%3A%2F%2Fuser%3Fid%3D123456789%22%3Einline+mention+of+a+user%3C%2Fa%3E%0D%0A%3Ccode%3Einline+fixed-width+code%3C%2Fcode%3E%0D%0A%3Cpre%3Epre-formatted+fixed-width+code+block%3C%2Fpre%3E%0D%0A%3Cpre%3E%3Ccode+class%3D%22language-python%22%3Epre-formatted+fixed-width+code+block+written+in+the+Python+programming+language%3C%2Fcode%3E%3C%2Fpre%3E%0D%0A%09%09%09%09%09&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(21): kirimpesan('<strong><u>UPDA...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 01:46:45 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=+%3Cstrong%3E%3Ccenter%3EUPDATE+DATA+BERHASIL%3C%2Fcenter%3E%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Server+%3A+SERVER+KAWAL+KORONA%0D%0A%09%09%09Tanggal+%3A+30-04-2020%0D%0A%09%09%09Jam+%3A+01%3A46%3A44%0D%0A%09%09&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(16): kirimpesan(' <strong><cente...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 01:56:13 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(115): file_get_contents('https://service...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(59): App\Controllers\Home->getDataServer('C:\\xampp\\htdocs...', 'https://service...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 01:57:30 --> Undefined variable: globalFileData
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-30 02:02:56 --> file_get_contents(): SSL: Handshake timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(91): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(60): App\Controllers\Home->getDataServer('C:\\xampp\\htdocs...', 'https://api.kaw...', 'global')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-30 02:03:56 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(91): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(60): App\Controllers\Home->getDataServer('C:\\xampp\\htdocs...', 'https://api.kaw...', 'global')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,240 @@
+CRITICAL - 2020-06-24 00:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 01:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 02:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 03:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 04:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 05:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 06:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 07:00:19 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 08:00:02 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 09:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 10:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 11:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 12:00:04 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 13:00:02 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 14:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 15:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 16:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 17:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 18:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 19:00:02 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 20:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 21:00:04 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 22:00:02 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-24 23:00:03 --> file_get_contents(https://api.kawalcorona.com/global/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/synergym/...', 93, Array)
+#1 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(93): file_get_contents('https://api.kaw...')
+#2 /home/synergym/public_html/infocorona.site/app/Controllers/Home.php(62): App\Controllers\Home->getDataServer('/home/synergym/...', 'https://api.kaw...', 'global')
+#3 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/synergym/public_html/infocorona.site/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

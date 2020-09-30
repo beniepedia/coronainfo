@@ -1,0 +1,147 @@
+CRITICAL - 2020-05-01 22:00:59 --> Too few arguments to function App\Controllers\Home::kontak(), 0 passed in C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-01 22:01:56 --> Too few arguments to function App\Controllers\Home::kontak(), 0 passed in C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-01 22:09:30 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:13:09 --> Cannot re-assign auto-global variable _POST
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-01 22:27:43 --> Too few arguments to function App\Controllers\Home::kontak(), 0 passed in C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-01 22:35:15 --> Undefined variable: request
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:36:51 --> Undefined variable: request
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:38:57 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-01 22:46:26 --> syntax error, unexpected '$nama' (T_VARIABLE)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:48:11 --> syntax error, unexpected '$email' (T_VARIABLE)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:48:55 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:51:18 --> syntax error, unexpected 'kirimpesan' (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:52:11 --> syntax error, unexpected 'kirimpesan' (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 22:52:42 --> syntax error, unexpected 'kirimpesan' (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/home/kontak')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/home/kontak')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-01 23:00:44 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E+%3E%3E%3E+Pesan+Dari+Pengunjung+%3C%3C%3C+%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Web+%3A+infocorona.site%0D%0A%09%09%09Nama+%3A+fsdfds%0D%0A%09%09%09Email+%3A+sdfds%40gmial.com%0D%0A%09%09%09Tanggal+%3A+01-05-2020%0D%0A%09%09%09Jam+%3A+23%3A00%3A42%0D%0A%09%09%09Pesan+%3A+sadasdas&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(123): kirimpesan('<strong> >>> Pe...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-01 23:01:46 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E+%3E%3E%3E+Pesan+Dari+Pengunjung+%3C%3C%3C+%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Web+%3A+infocorona.site%0D%0A%09%09%09Nama+%3A+fsdfds%0D%0A%09%09%09Email+%3A+sdfds%40gmial.com%0D%0A%09%09%09Tanggal+%3A+01-05-2020%0D%0A%09%09%09Jam+%3A+23%3A01%3A45%0D%0A%09%09%09Pesan+%3A+sadsadas&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(123): kirimpesan('<strong> >>> Pe...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-01 23:04:23 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E+%3E%3E%3E+Pesan+Dari+Pengunjung+%3C%3C%3C+%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Web+%3A+infocorona.site%0D%0A%09%09%09Nama+%3A+sdfdsfsd%0D%0A%09%09%09Email+%3A+sdfds%40gmial.com%0D%0A%09%09%09Tanggal+%3A+01-05-2020%0D%0A%09%09%09Jam+%3A+23%3A04%3A21%0D%0A%09%09%09Pesan+%3A+sadsad&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(123): kirimpesan('<strong> >>> Pe...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-01 23:05:59 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E+%3E%3E%3E+Pesan+Dari+Pengunjung+%3C%3C%3C+%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Web+%3A+infocorona.site%0D%0A%09%09%09Nama+%3A+adasd%0D%0A%09%09%09Email+%3A+sdfds%40gmial.com%0D%0A%09%09%09Tanggal+%3A+01-05-2020%0D%0A%09%09%09Jam+%3A+23%3A05%3A58%0D%0A%09%09%09Pesan+%3A+sdadasd&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(123): kirimpesan('<strong> >>> Pe...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-01 23:07:37 --> file_get_contents(https://api.telegram.org/bot1210455223:AAEK6SrKXgxWjtQpv1uBVAI7-B41zohuIVw/sendMessage?chat_id=1164076579&amp;text=%3Cstrong%3E+%3E%3E%3E+Pesan+Dari+Pengunjung+%3C%3C%3C+%3C%2Fstrong%3E%0D%0A%0D%0A%09%09%09Web+%3A+infocorona.site%0D%0A%09%09%09Nama+%3A+sdfdsfsd%0D%0A%09%09%09Email+%3A+sdfds%40gmial.com%0D%0A%09%09%09Tanggal+%3A+01-05-2020%0D%0A%09%09%09Jam+%3A+23%3A07%3A36%0D%0A%09%09%09Pesan+%3A+asdasda&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Helpers\pesantelegram_helper.php(13): file_get_contents('https://api.tel...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(123): kirimpesan('<strong> >>> Pe...')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-01 23:08:37 --> Undefined variable: send
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

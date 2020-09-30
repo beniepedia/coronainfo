@@ -1,0 +1,393 @@
+CRITICAL - 2020-04-29 01:27:05 --> file_get_contents(https://api.kawalcorona.com/sembuh/): failed to open stream: HTTP request failed! HTTP/1.1 522 Origin Connection Time-out
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(66): file_get_contents('https://api.kaw...')
+#2 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(53): App\Controllers\Home->getDataServer('C:\\xampp\\htdocs...', Array, 'globalData')
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->getDataJson()
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-29 01:42:47 --> syntax error, unexpected 'Global' (T_GLOBAL), expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/global')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/global')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:44:22 --> syntax error, unexpected 'Global' (T_GLOBAL), expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/global')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/global')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:45:22 --> syntax error, unexpected 'Global' (T_GLOBAL), expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/global')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/global')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:46:47 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\infocorona.site\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/globalcase')
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/globalcase')
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:55:15 --> Call to undefined function App\Controllers\dump()
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-29 01:57:12 --> Use of undefined constant Last_Update - assumed 'Last_Update' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:57:24 --> Undefined index: Last_Update
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:57:59 --> Use of undefined constant Last_Update - assumed 'Last_Update' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:58:10 --> Undefined index: Last_Update
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:58:48 --> Argument 1 passed to dump() must be of the type array, int given, called in C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php on line 16
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): dump(1588095064000)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:59:03 --> Argument 1 passed to dump() must be of the type array, int given, called in C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php on line 16
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): dump(1588095064000)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 01:59:15 --> Argument 1 passed to dump() must be of the type array, int given, called in C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php on line 16
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): dump(1588095064000)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:17:47 --> Undefined property: App\Controllers\Globalcase::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:21:05 --> Undefined property: CodeIgniter\HTTP\URI::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:21:41 --> Undefined property: CodeIgniter\HTTP\URI::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:21:59 --> Undefined property: CodeIgniter\HTTP\URI::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:24:32 --> Undefined variable: request
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:26:04 --> Array to string conversion
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:26:20 --> Array to string conversion
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:27:50 --> Undefined property: CodeIgniter\HTTP\URI::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:29:15 --> Undefined property: CodeIgniter\HTTP\URI::$uri
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:29:39 --> Undefined variable: request
+#0 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-29 18:32:12 --> Undefined variable: respnse
+#0 C:\xampp\htdocs\infocorona.site\app\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(46): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 18:32:42 --> Undefined variable: request
+#0 C:\xampp\htdocs\infocorona.site\app\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(46): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 18:49:15 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Home.php(36): view('templates/heade...', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 20:13:53 --> Undefined variable: dataProv
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 20:28:30 --> syntax error, unexpected 'die' (T_EXIT), expecting ';' or ','
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 20:41:42 --> Undefined index: Lat
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 20:43:33 --> Undefined index: Long
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 20:57:13 --> Undefined index: attributes
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 20:57:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 21:00:44 --> Undefined index: Lang_
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 21:15:33 --> Undefined index: Lang_
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 21:15:43 --> Undefined index: Lang
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 21:15:59 --> Array to string conversion
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 21:21:13 --> syntax error, unexpected '{', expecting ']'
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 21:22:08 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 21:22:30 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 21:23:13 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(47): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 22:58:41 --> syntax error, unexpected '$dataNegara' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 23:11:21 --> Undefined variable: row
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 23:24:56 --> Undefined index: attribute
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 23:38:47 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 23:39:08 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 23:39:38 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#1 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#3 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-29 23:43:41 --> Undefined variable: variable
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-29 23:43:57 --> Undefined variable: variable
+#0 C:\xampp\htdocs\infocorona.site\app\Views\Globalcase.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\infocorona.site\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\infocorona.site\system\Common.php(1071): CodeIgniter\View\View->render('Globalcase', Array, true)
+#3 C:\xampp\htdocs\infocorona.site\app\Controllers\Globalcase.php(45): view('Globalcase', Array)
+#4 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Globalcase->index()
+#5 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Globalcase))
+#6 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

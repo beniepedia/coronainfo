@@ -1,0 +1,30 @@
+CRITICAL - 2020-05-02 00:41:31 --> Function name must be a string
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 00:42:30 --> Function name must be a string
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 00:43:53 --> Function name must be a string
+#0 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(910): App\Controllers\Home->kontak()
+#1 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\infocorona.site\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\infocorona.site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 01:30:05 --> Class 'Kint\Kint' not found
+#0 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(224): require_once()
+#1 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /home/synergym/public_html/infocorona.site/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /home/synergym/public_html/infocorona.site/index.php(36): require('/home/synergym/...')
+#4 {main}
+CRITICAL - 2020-05-02 01:30:07 --> Class 'Kint\Kint' not found
+#0 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(224): require_once()
+#1 /home/synergym/public_html/infocorona.site/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /home/synergym/public_html/infocorona.site/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /home/synergym/public_html/infocorona.site/index.php(36): require('/home/synergym/...')
+#4 {main}

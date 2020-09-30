@@ -1,0 +1,559 @@
+[
+    {
+        "last_update": 1601442004,
+        "objectIdFieldName": "FID",
+        "uniqueIdField": {
+            "name": "FID",
+            "isSystemMaintained": true
+        },
+        "globalIdFieldName": "",
+        "geometryType": "esriGeometryPoint",
+        "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+        },
+        "fields": [
+            {
+                "name": "FID",
+                "type": "esriFieldTypeOID",
+                "alias": "FID",
+                "sqlType": "sqlTypeOther",
+                "domain": null,
+                "defaultValue": null
+            },
+            {
+                "name": "Kode_Provi",
+                "type": "esriFieldTypeInteger",
+                "alias": "Kode_Provi",
+                "sqlType": "sqlTypeOther",
+                "domain": null,
+                "defaultValue": null
+            },
+            {
+                "name": "Provinsi",
+                "type": "esriFieldTypeString",
+                "alias": "Provinsi",
+                "sqlType": "sqlTypeOther",
+                "length": 254,
+                "domain": null,
+                "defaultValue": null
+            },
+            {
+                "name": "Kasus_Posi",
+                "type": "esriFieldTypeInteger",
+                "alias": "Kasus_Posi",
+                "sqlType": "sqlTypeOther",
+                "domain": null,
+                "defaultValue": null
+            },
+            {
+                "name": "Kasus_Semb",
+                "type": "esriFieldTypeInteger",
+                "alias": "Kasus_Semb",
+                "sqlType": "sqlTypeOther",
+                "domain": null,
+                "defaultValue": null
+            },
+            {
+                "name": "Kasus_Meni",
+                "type": "esriFieldTypeInteger",
+                "alias": "Kasus_Meni",
+                "sqlType": "sqlTypeOther",
+                "domain": null,
+                "defaultValue": null
+            }
+        ],
+        "features": [
+            {
+                "attributes": {
+                    "FID": 1,
+                    "Kode_Provi": 11,
+                    "Provinsi": "Aceh",
+                    "Kasus_Posi": 4471,
+                    "Kasus_Semb": 2325,
+                    "Kasus_Meni": 174
+                },
+                "geometry": {
+                    "x": 96.90952274776174,
+                    "y": 4.225081892093782
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 2,
+                    "Kode_Provi": 12,
+                    "Provinsi": "Sumatera Utara",
+                    "Kasus_Posi": 10211,
+                    "Kasus_Semb": 6804,
+                    "Kasus_Meni": 425
+                },
+                "geometry": {
+                    "x": 99.05788784892918,
+                    "y": 2.1847792149105123
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 3,
+                    "Kode_Provi": 13,
+                    "Provinsi": "Sumatera Barat",
+                    "Kasus_Posi": 6180,
+                    "Kasus_Semb": 3081,
+                    "Kasus_Meni": 116
+                },
+                "geometry": {
+                    "x": 100.46680503029916,
+                    "y": -0.8519143477257053
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 4,
+                    "Kode_Provi": 14,
+                    "Provinsi": "Riau",
+                    "Kasus_Posi": 7270,
+                    "Kasus_Semb": 3603,
+                    "Kasus_Meni": 151
+                },
+                "geometry": {
+                    "x": 101.81289195391142,
+                    "y": 0.5105258491811052
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 5,
+                    "Kode_Provi": 15,
+                    "Provinsi": "Jambi",
+                    "Kasus_Posi": 490,
+                    "Kasus_Semb": 265,
+                    "Kasus_Meni": 11
+                },
+                "geometry": {
+                    "x": 103.59931999973588,
+                    "y": -1.6177499996423312
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 6,
+                    "Kode_Provi": 16,
+                    "Provinsi": "Sumatera Selatan",
+                    "Kasus_Posi": 5985,
+                    "Kasus_Semb": 4271,
+                    "Kasus_Meni": 342
+                },
+                "geometry": {
+                    "x": 104.17041944464856,
+                    "y": -3.213346821849744
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 7,
+                    "Kode_Provi": 17,
+                    "Provinsi": "Bengkulu",
+                    "Kasus_Posi": 665,
+                    "Kasus_Semb": 421,
+                    "Kasus_Meni": 34
+                },
+                "geometry": {
+                    "x": 102.26311999971767,
+                    "y": -3.7911599999922694
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 8,
+                    "Kode_Provi": 19,
+                    "Provinsi": "Kepulauan Bangka Belitung",
+                    "Kasus_Posi": 191,
+                    "Kasus_Semb": 173,
+                    "Kasus_Meni": 2
+                },
+                "geometry": {
+                    "x": 105.98694808180812,
+                    "y": -2.2529564111524327
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 9,
+                    "Kode_Provi": 18,
+                    "Provinsi": "Lampung",
+                    "Kasus_Posi": 875,
+                    "Kasus_Semb": 628,
+                    "Kasus_Meni": 30
+                },
+                "geometry": {
+                    "x": 105.01831305094686,
+                    "y": -4.918073087438925
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 10,
+                    "Kode_Provi": 21,
+                    "Provinsi": "Kepulauan Riau",
+                    "Kasus_Posi": 2200,
+                    "Kasus_Semb": 1416,
+                    "Kasus_Meni": 56
+                },
+                "geometry": {
+                    "x": 108.20222888881388,
+                    "y": 3.9159472411462137
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 11,
+                    "Kode_Provi": 31,
+                    "Provinsi": "DKI Jakarta",
+                    "Kasus_Posi": 72577,
+                    "Kasus_Semb": 58775,
+                    "Kasus_Meni": 1716
+                },
+                "geometry": {
+                    "x": 106.82648999970596,
+                    "y": -6.171480000380943
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 12,
+                    "Kode_Provi": 32,
+                    "Provinsi": "Jawa Barat",
+                    "Kasus_Posi": 21759,
+                    "Kasus_Semb": 13279,
+                    "Kasus_Meni": 405
+                },
+                "geometry": {
+                    "x": 107.60280789771438,
+                    "y": -6.919980215676874
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 13,
+                    "Kode_Provi": 33,
+                    "Provinsi": "Jawa Tengah",
+                    "Kasus_Posi": 22205,
+                    "Kasus_Semb": 15834,
+                    "Kasus_Meni": 1409
+                },
+                "geometry": {
+                    "x": 110.201112529175,
+                    "y": -7.258970382933987
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 14,
+                    "Kode_Provi": 34,
+                    "Provinsi": "Daerah Istimewa Yogyakarta",
+                    "Kasus_Posi": 2607,
+                    "Kasus_Semb": 1856,
+                    "Kasus_Meni": 67
+                },
+                "geometry": {
+                    "x": 110.4453669711082,
+                    "y": -7.895013815160975
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 15,
+                    "Kode_Provi": 35,
+                    "Provinsi": "Jawa Timur",
+                    "Kasus_Posi": 43450,
+                    "Kasus_Semb": 36708,
+                    "Kasus_Meni": 3162
+                },
+                "geometry": {
+                    "x": 112.73367880118164,
+                    "y": -7.720113018739567
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 16,
+                    "Kode_Provi": 36,
+                    "Provinsi": "Banten",
+                    "Kasus_Posi": 5499,
+                    "Kasus_Semb": 3684,
+                    "Kasus_Meni": 170
+                },
+                "geometry": {
+                    "x": 106.10919706896232,
+                    "y": -6.456181598923129
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 17,
+                    "Kode_Provi": 51,
+                    "Provinsi": "Bali",
+                    "Kasus_Posi": 8745,
+                    "Kasus_Semb": 7249,
+                    "Kasus_Meni": 271
+                },
+                "geometry": {
+                    "x": 115.1316509954286,
+                    "y": -8.369743261086477
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 18,
+                    "Kode_Provi": 52,
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Kasus_Posi": 3289,
+                    "Kasus_Semb": 2598,
+                    "Kasus_Meni": 195
+                },
+                "geometry": {
+                    "x": 117.50686245225263,
+                    "y": -8.606652084111358
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 19,
+                    "Kode_Provi": 53,
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Kasus_Posi": 406,
+                    "Kasus_Semb": 268,
+                    "Kasus_Meni": 6
+                },
+                "geometry": {
+                    "x": 121.14182917026828,
+                    "y": -8.604843331946174
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 20,
+                    "Kode_Provi": 61,
+                    "Provinsi": "Kalimantan Barat",
+                    "Kasus_Posi": 974,
+                    "Kasus_Semb": 808,
+                    "Kasus_Meni": 10
+                },
+                "geometry": {
+                    "x": 111.12076240064371,
+                    "y": -0.0859012339120799
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 21,
+                    "Kode_Provi": 62,
+                    "Provinsi": "Kalimantan Tengah",
+                    "Kasus_Posi": 3634,
+                    "Kasus_Semb": 2696,
+                    "Kasus_Meni": 131
+                },
+                "geometry": {
+                    "x": 113.18104785169665,
+                    "y": -1.6343400452136536
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 22,
+                    "Kode_Provi": 63,
+                    "Provinsi": "Kalimantan Selatan",
+                    "Kasus_Posi": 10289,
+                    "Kasus_Semb": 8746,
+                    "Kasus_Meni": 419
+                },
+                "geometry": {
+                    "x": 115.3113078341141,
+                    "y": -2.4497791372641027
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 23,
+                    "Kode_Provi": 64,
+                    "Provinsi": "Kalimantan Timur",
+                    "Kasus_Posi": 8438,
+                    "Kasus_Semb": 5521,
+                    "Kasus_Meni": 312
+                },
+                "geometry": {
+                    "x": 116.47085839332128,
+                    "y": 0.46104622699002373
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 24,
+                    "Kode_Provi": 65,
+                    "Provinsi": "Kalimantan Utara",
+                    "Kasus_Posi": 575,
+                    "Kasus_Semb": 451,
+                    "Kasus_Meni": 4
+                },
+                "geometry": {
+                    "x": 116.21671830879166,
+                    "y": 2.888820960580607
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 25,
+                    "Kode_Provi": 71,
+                    "Provinsi": "Sulawesi Utara",
+                    "Kasus_Posi": 4456,
+                    "Kasus_Semb": 3575,
+                    "Kasus_Meni": 175
+                },
+                "geometry": {
+                    "x": 124.53537884973578,
+                    "y": 1.2860976870791652
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 26,
+                    "Kode_Provi": 72,
+                    "Provinsi": "Sulawesi Tengah",
+                    "Kasus_Posi": 402,
+                    "Kasus_Semb": 256,
+                    "Kasus_Meni": 15
+                },
+                "geometry": {
+                    "x": 120.44959250038356,
+                    "y": -1.4592149539219137
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 27,
+                    "Kode_Provi": 73,
+                    "Provinsi": "Sulawesi Selatan",
+                    "Kasus_Posi": 15501,
+                    "Kasus_Semb": 11966,
+                    "Kasus_Meni": 416
+                },
+                "geometry": {
+                    "x": 120.16115770364496,
+                    "y": -3.7471157118016927
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 28,
+                    "Kode_Provi": 74,
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Kasus_Posi": 2819,
+                    "Kasus_Semb": 1920,
+                    "Kasus_Meni": 60
+                },
+                "geometry": {
+                    "x": 122.0786780559111,
+                    "y": -4.1328039709672435
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 29,
+                    "Kode_Provi": 75,
+                    "Provinsi": "Gorontalo",
+                    "Kasus_Posi": 2671,
+                    "Kasus_Semb": 2243,
+                    "Kasus_Meni": 75
+                },
+                "geometry": {
+                    "x": 123.06184000014996,
+                    "y": 0.5370700003394442
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 30,
+                    "Kode_Provi": 76,
+                    "Provinsi": "Sulawesi Barat",
+                    "Kasus_Posi": 773,
+                    "Kasus_Semb": 417,
+                    "Kasus_Meni": 11
+                },
+                "geometry": {
+                    "x": 119.34347138338468,
+                    "y": -2.461902015116017
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 31,
+                    "Kode_Provi": 81,
+                    "Provinsi": "Maluku",
+                    "Kasus_Posi": 2815,
+                    "Kasus_Semb": 1800,
+                    "Kasus_Meni": 41
+                },
+                "geometry": {
+                    "x": 129.3604249999869,
+                    "y": -3.1261193431769434
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 32,
+                    "Kode_Provi": 82,
+                    "Provinsi": "Maluku Utara",
+                    "Kasus_Posi": 2059,
+                    "Kasus_Semb": 1802,
+                    "Kasus_Meni": 74
+                },
+                "geometry": {
+                    "x": 128.0159294419005,
+                    "y": 0.8693370008694276
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 33,
+                    "Kode_Provi": 94,
+                    "Provinsi": "Papua",
+                    "Kasus_Posi": 5999,
+                    "Kasus_Semb": 3743,
+                    "Kasus_Meni": 80
+                },
+                "geometry": {
+                    "x": 140.0000000003746,
+                    "y": -5.000000000227514
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 34,
+                    "Kode_Provi": 91,
+                    "Provinsi": "Papua Barat",
+                    "Kasus_Posi": 2088,
+                    "Kasus_Semb": 1126,
+                    "Kasus_Meni": 34
+                },
+                "geometry": {
+                    "x": 132.96834171194757,
+                    "y": -2.0417232818795226
+                }
+            },
+            {
+                "attributes": {
+                    "FID": 35,
+                    "Kode_Provi": 0,
+                    "Provinsi": "Indonesia",
+                    "Kasus_Posi": 0,
+                    "Kasus_Semb": 0,
+                    "Kasus_Meni": 0
+                },
+                "geometry": {
+                    "x": 113.91586500022191,
+                    "y": -0.9898181822734585
+                }
+            }
+        ]
+    }
+]
